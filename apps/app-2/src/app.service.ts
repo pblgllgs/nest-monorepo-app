@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class App2Service {
+export class AppService {
   getHello(): string {
-    return 'Hello World from post 3002!';
+    return 'Hello World from port 3002!';
   }
 }
